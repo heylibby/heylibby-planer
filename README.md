@@ -1,4 +1,4 @@
-# planer-multi-lang
+# HeyLibbyPlanner
 Package forked from [lever/planer](https://github.com/lever/planer) to update the functionality support for many languages.
 
 -------------------
@@ -14,7 +14,7 @@ Planer does not do signatures, though there is a [node port](https://github.com/
 # Installation
 Use npm to install planer (add `-g` if you would like it to be global):
 
-`npm install planer-multi-lang`
+`npm install heylibbyplanner`
 
 # Usage
 
