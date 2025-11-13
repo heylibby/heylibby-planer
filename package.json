@@ -1,5 +1,5 @@
 {
-  "name": "heylibbyplanner",
+  "name": "@heylibby/heylibbyplanner",
   "version": "1.2.1",
   "description": "Remove reply quotations from emails",
   "main": "lib/planer.js",
