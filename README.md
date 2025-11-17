@@ -1,4 +1,4 @@
-# HeyLibbyPlanner
+# heylibby-planer
 Package forked from [lever/planer](https://github.com/lever/planer) to update the functionality support for many languages.
 
 -------------------
@@ -14,7 +14,7 @@ Planer does not do signatures, though there is a [node port](https://github.com/
 # Installation
 Use npm to install planer (add `-g` if you would like it to be global):
 
-`npm install heylibbyplanner`
+`npm install @heylibby/heylibby-planer`
 
 # Usage
 
@@ -24,7 +24,7 @@ We use `jsdom` in our test suite.
 
 To extract the message from a plain text email:
 ```
-planer = require('planer');
+planer = require('@heylibby/heylibby-planer');
 
 msgBody = "Reply!\n\nOn 15-Dec-2011, at 6:54 PM, Sean Carter <s.carter@example.com> wrote:\n> It's the ROC!\n>-Sean";
 actualMessage = planer.extractFrom(msgBody, 'text/plain');
@@ -33,7 +33,7 @@ console.log(actualMessage); # "Reply!"
 
 To extract the message from an html email:
 ```
-planer = require('planer');
+planer = require('@heylibby/heylibby-planer');
 
 msgBody = 'Reply!\n<div>\nOn 11-Apr-2011, at 6:54 PM, Bob &lt;bob@example.com&gt; wrote:\n</div>\n<blockquote>\n<div>\nTest\n</div>\n</blockquote>';
 actualMessage = planer.extractFrom(msgBody, 'text/html', window.document);
